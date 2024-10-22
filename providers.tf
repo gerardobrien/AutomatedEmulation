@@ -13,6 +13,7 @@ terraform {
 
 provider "aws" {
   region 	= var.region 
+  profile = "awscloudlab0224"
 }
 
 provider "random" {}
